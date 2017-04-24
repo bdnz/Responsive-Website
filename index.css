@@ -1,0 +1,197 @@
+body
+{
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  }
+
+h1
+{
+color: darkorange;
+
+}
+
+h2
+{
+  color: darkorange;
+}
+.container 
+{
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column; 
+  }
+
+a
+{
+  color: darkorange;
+}
+
+.menu 
+{
+  max-width: 1235px;
+  margin: 0 auto; }
+
+
+.header 
+{
+  background: whitesmoke;
+  color: orange;
+  margin: 0;
+  position: fixed;
+  width: 100vw; 
+   }
+
+    p
+    {
+    color:darkorange
+  }
+
+  .header .menu  
+  {
+    margin: 0;
+    display: flex;
+    justify-content: space-between; 
+    }
+ 
+
+  .header .nav-toggle 
+  {
+    text-decoration: none;
+    padding: 0.5em;
+    display: inline-block;
+    position: relative;
+    text-align: right;
+    line-height: 27px; 
+    }
+
+    @media screen and (min-width: 450px) 
+    {
+      .header .nav-toggle {
+        display: block;
+        position: inherit;
+        background: none; }
+        .header .nav-toggle .trigger {
+          display: none; 
+          } 
+          }
+
+    @media screen and (min-width: 450px) 
+    {
+      .header ul {
+        display: block;
+        position: inherit;
+        background: none;
+        z-index: 5;
+        right: auto;
+        min-width: none; 
+        } 
+        }
+    
+    
+      @media screen and (min-width: 450px)
+       {
+        .header ul li {
+          display: inline-block;
+          color:black; 
+          }
+           }
+
+.main 
+{
+  flex: 1;
+  margin: 150px 2em;
+  font-size: 20px;
+  line-height: 2.5em;
+   }
+
+  .main .mainIstanbul
+   {
+    position: relative;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 80%; 
+    }
+  
+
+    
+    .main .mainIstanbul p
+     {
+      position: absolute;
+      text-align: center;
+      left: 0;
+      top: 0;
+      padding: 10px;
+      width: 100%;
+      color: #FFF; 
+      }
+
+  .main .istanbul 
+  {
+    width: 80%;
+    display: block;
+    margin: auto; 
+    }
+
+
+
+    @media screen and (min-width: 550px) 
+    {
+ 
+      .main .istanbul {
+        width: 90%;
+        display: block;
+        margin: auto;
+         } 
+        }
+
+
+    @media screen and (min-width: 1000px) 
+    {
+ 
+      .main .istanbul {
+        width: 50%;
+        display: block;
+        margin: auto; 
+        } 
+        }
+
+  .main .listVid 
+  {
+    width: 30%;
+    float: right; }
+   
+   
+    @media screen and (max-width: 800px) 
+    {
+    
+      .main .listVid {
+        width: 100%;
+        margin: 0;
+        }
+        .main .listVid {
+          width: 100%;
+          } 
+          }
+ 
+    @media screen and (min-width: 801px) 
+    {
+      .main .listVid {
+        width: 30%;
+        margin: 0;
+        float: left; 
+        }
+      
+        .main .listVid .rim 
+        {
+          width: 80%;
+          margin-left: 1em;
+          margin-right: 1em; 
+          } 
+          }
+
+.footer {
+  background: whitesmoke;
+  color: orange;
+  padding: 7em; }
